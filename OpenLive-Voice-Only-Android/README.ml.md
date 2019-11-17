@@ -34,26 +34,26 @@ implementation 'io.agora.rtc:voice-sdk:2.4.0'
 
 -സംയോജിപ്പിക്കുന്നതിനുള്ള ഇതര മാർഗം:
 
-ആദ്യം, **Agora Voice SDK** ഇതിൽ നിന്ന് ഡൗൺലോഡുചെയ്യുക  [Agora.io SDK](https://www.agora.io/en/download/). ഡൗൺലോഡ്ചെയ്‌ത SDK പാക്കേജ് അൺ‌സിപ്പ് ചെയ്ത് പകർ‌ത്തുക ***.jar** under **libs** to **app/libs**, **arm64-v8a**/**x86**/**armeabi-v7a** under **libs** to **app/src/main/jniLibs**.
+ആദ്യം, **Agora Voice SDK** ഇതിൽ നിന്ന് ഡൗൺലോഡുചെയ്യുക  [Agora.io SDK](https://www.agora.io/en/download/). ഡൗൺലോഡ്ചെയ്‌ത SDK പാക്കേജ് അൺ‌സിപ്പ് ചെയ്ത് പകർ‌ത്തുക ***.jar** കീഴെ **libs** ഇതിനായി **app/libs**, **arm64-v8a**/**x86**/**armeabi-v7a** കീഴെ **libs** to **app/src/main/jniLibs**.
 
-Then, add the fllowing code in the property of the dependence of the "app/build.gradle":
+തുടർന്ന്, ആശ്രിതത്വത്തിന്റെ സ്വത്തിൽ ഫ്ലോയിംഗ് കോഡ് ചേർക്കുക "app/build.gradle":
 
 ```
 compile fileTree(dir: 'libs', include: ['*.jar'])
 ```
 
-**Finally**, open project with Android Studio, connect your Android device, build and run.
+**അവസാനമായി**, Android സ്റ്റുഡിയോ ഉപയോഗിച്ച് പ്രോജക്റ്റ് തുറക്കുക, നിങ്ങളുടെ Android ഉപകരണം കണക്റ്റുചെയ്യുക, നിർമ്മിച്ച് പ്രവർത്തിപ്പിക്കുക.
 
-Or use `Gradle` to build and run.
+അല്ലെങ്കിൽ നിർമ്മിക്കാനും പ്രവർത്തിപ്പിക്കാനും `Gradle` ഉപയോഗിക്കുക.
 
-## Developer Environment Requirements
-- Android Studio 3.0 or above
-- Real devices (Nexus 5X or other devices)
-- Some simulators are function missing or have performance issue, so real device is the best choice
+## ഡവലപ്പർ പരിസ്ഥിതി ആവശ്യകതകൾ
+- Android Studio 3.0 അല്ലെങ്കിൽ മുകളിലുള്ളത്
+- യഥാർത്ഥ ഉപകരണങ്ങൾ(Nexus 5X അല്ലെങ്കിൽ മറ്റ് ഉപകരണങ്ങൾ)
+- ചില സിമുലേറ്ററുകൾ‌ ഫംഗ്ഷൻ‌ നഷ്‌ടമായി അല്ലെങ്കിൽ‌ പ്രകടന പ്രശ്‌നമുണ്ട്, അതിനാൽ‌ മികച്ച ചോയ്‌സ്
 
-## Connect Us
-- You can find full API document at [Document Center](https://docs.agora.io/en/)
-- You can file bugs about this demo at [issue](https://github.com/AgoraIO/Basic-Audio-Broadcasting/issues)
+## ഞങ്ങളെ ബന്ധിപ്പിക്കുക
+- നിങ്ങൾക്ക് പൂർണ്ണ API പ്രമാണം ഇവിടെ കണ്ടെത്താൻ കഴിയും [Document Center](https://docs.agora.io/en/)
+- നിങ്ങൾക്ക് ഈ ഡെമോയെക്കുറിച്ച് ബഗുകൾ ഫയൽ ചെയ്യാൻ കഴിയും[issue](https://github.com/AgoraIO/Basic-Audio-Broadcasting/issues)
 
 ## License
 The MIT License (MIT).
