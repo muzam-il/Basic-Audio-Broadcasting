@@ -52,8 +52,8 @@ compile fileTree(dir: 'libs', include: ['*.jar'])
 - ചില സിമുലേറ്ററുകൾ‌ ഫംഗ്ഷൻ‌ നഷ്‌ടമായി അല്ലെങ്കിൽ‌ പ്രകടന പ്രശ്‌നമുണ്ട്, അതിനാൽ‌ മികച്ച ചോയ്‌സ്
 
 ## ഞങ്ങളെ ബന്ധിപ്പിക്കുക
-- നിങ്ങൾക്ക് പൂർണ്ണ API പ്രമാണം ഇവിടെ കണ്ടെത്താൻ കഴിയും [Document Center](https://docs.agora.io/en/)
-- നിങ്ങൾക്ക് ഈ ഡെമോയെക്കുറിച്ച് ബഗുകൾ ഫയൽ ചെയ്യാൻ കഴിയും[issue](https://github.com/AgoraIO/Basic-Audio-Broadcasting/issues)
+- നിങ്ങൾക്ക് പൂർണ്ണ API പ്രമാണം ഇവിടെ കണ്ടെത്താൻ കഴിയും [പ്രമാണ കേന്ദ്രം](https://docs.agora.io/en/)
+- നിങ്ങൾക്ക് ഈ ഡെമോയെക്കുറിച്ച് ബഗുകൾ ഫയൽ ചെയ്യാൻ കഴിയും [പ്രശ്നങ്ങൾ](https://github.com/AgoraIO/Basic-Audio-Broadcasting/issues)
 
-## License
+## അനുമതി
 The MIT License (MIT).
